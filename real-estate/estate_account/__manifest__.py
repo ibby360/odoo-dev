@@ -5,6 +5,10 @@
     'website': 'https://www.ictpack.tech',
     'summary': 'realestate development',
     'depends': ['estate', 'account'],
+    'category': 'Tutorials',
+    'description': """
+        This module adds the accounting features to the real estate module.
+    """,
     'data': [
         'security/ir.model.access.csv',
     ],
